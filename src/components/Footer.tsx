@@ -241,7 +241,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
 
         {/* Bottom Bar: Copyright and Links */}
         <div className="mt-8 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} Maa Gayatri Medical Hall. All rights reserved. Designed & Hosted Locally.</p>
+          <p>© {new Date().getFullYear()} Maa Gayatri Medical Hall. All rights reserved. Designed & Hosted Locally. <a href="https://main.webmakerit.com" target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 underline decoration-dotted transition-colors ml-1">Developed by WMIT</a></p>
           <div className="flex gap-4">
             <button onClick={() => alert('Maa Gayatri Medical Hall is committed to protecting your privacy. We store and use your uploaded prescription and mobile numbers strictly for dispensing medicine packages and never sell/disclose them.')} className="hover:text-slate-300">Privacy Policy</button>
             <span>•</span>
