@@ -1,0 +1,6 @@
+{
+  "name": "Maa Gayatri Medical Hall",
+  "description": "A modern, professional, and SEO-optimized web application for Maa Gayatri Medical Hall pharmacy in Tekari, Bihar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
